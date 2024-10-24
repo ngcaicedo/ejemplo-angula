@@ -11,7 +11,8 @@ import { CourseModule } from './course/course.module';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    CourseModule
   ],
   providers: [],
   bootstrap: [AppComponent]
